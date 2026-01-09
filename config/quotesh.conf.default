@@ -1,0 +1,21 @@
+# quotesh configuration
+# Copy this file to ~/.config/quotesh/quotesh.conf
+# This file is sourced by quotesh.sh - use shell syntax
+
+# Enable/disable quotesh (1 = enabled, 0 = disabled)
+QUOTESH_ENABLED=1
+
+# Spawn fetcher on terminal start (1 = yes, 0 = no)
+QUOTESH_FETCH_ON_START=1
+
+# Box style: simple, double, rounded
+QUOTESH_BOX_STYLE="rounded"
+
+# Maximum width of the quote box
+QUOTESH_MAX_WIDTH=80
+
+# Python interpreter path (uncomment if python3 not in PATH)
+# QUOTESH_PYTHON="/usr/bin/python3"
+
+# Advanced: Override data directory (XDG compliant by default)
+# QUOTESH_DATA_DIR="$HOME/.local/share/quotesh"
